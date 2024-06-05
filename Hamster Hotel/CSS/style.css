@@ -36,6 +36,10 @@ h3 {
    color: white;
 }
 
+.full-width {
+    width: 100%;
+}
+
 .responsive {
     width: 100%;
     height: auto;
@@ -44,6 +48,10 @@ h3 {
 .container {
     min-height: 100vh;
     width: 100%;
+}
+
+.amenities-description {
+    padding: 0 1rem;
 }
 
 .main-body-container {
@@ -305,6 +313,19 @@ h3 {
     "welcome-image welcome-image welcome-image logo-1 logo-2 logo-3";
     margin: 0 auto;
     padding: 4rem 0 4rem 0;
+    max-width: 88rem;
+}
+
+.responsive {
+    width: 100%;
+}
+
+.hamster-reserve-img {
+    max-width: 60rem;
+}
+
+.welcome-logo-size {
+    width: auto;
 }
 
 @media (max-width: 1400px) {
@@ -463,6 +484,7 @@ h3 {
     padding: 2rem 0 2rem 0;
     justify-content: center;
     color: white;
+    max-width: 60rem;
 }
 
 .form__label {
@@ -534,6 +556,7 @@ h3 {
 .reserve-form__image {
     width: 70%;
     margin: 0 auto 4rem; 
+    text-align: center;
 }
 
 @media (max-width: 1400px) {
@@ -542,7 +565,6 @@ h3 {
         display: grid;
         margin: 0 auto 3rem;
         justify-items: center;
-        max-width: 35rem;
     }
 }
 /*end of reserve-form__image*/
